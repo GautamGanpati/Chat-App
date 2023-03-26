@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                           child: TextField(
                             controller: _searchController,
                             decoration: const InputDecoration.collapsed(
-                                hintText: "Search"),
+                                hintText: "Search Email"),
                           ),
                         )),
                         IconButton(
