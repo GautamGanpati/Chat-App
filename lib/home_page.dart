@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
           isLoading = false;
           _searchController.clear();
         });
-        print(userMap);
+        
       });
     }
   }

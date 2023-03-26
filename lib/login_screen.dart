@@ -103,10 +103,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (_) => const HomePage()));
-                                print('Login Sucessful');
-                              } else {
-                                print('Login Failed');
-                              }
+                                
+                              } 
                             });
                           } else {
                             print('Please enter feilds');

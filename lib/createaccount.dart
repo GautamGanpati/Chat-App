@@ -130,10 +130,8 @@ class _CreateAccountState extends State<CreateAccount> {
                                   isLoading = false;
                                 });
                                 Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const HomePage()));
-                                print('Account created Sucessfully');
-                              } else {
-                                print('Login Failed');
-                              }
+                                
+                              } 
                             });
                           } else {
                             print('Please enter feilds');
